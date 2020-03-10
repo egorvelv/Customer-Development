@@ -1,10 +1,10 @@
 .hero {
-	padding: 44px 130px;
 	height: 100vh;
 }
 
 .hero__content {
-	margin-top: 100px;
+	position: relative;
+	margin-top: 25px;
 	width: 100%;
 	display: flex;
 	justify-content: flex-end;
@@ -14,6 +14,7 @@
 .hero__info {
 	display: flex;
 	width: 50%;
+	height: 100%;
 	flex-direction: column; 
 }
 
@@ -24,8 +25,6 @@
 	font-size: 16px;
 	letter-spacing: 0.05em;
 	line-height: 20px;
-	width: 418px;
-	height: 21px;
 }
 
 .hero__title {
@@ -33,14 +32,26 @@
 	font-weight: bold;
 	font-size: 40px;
 	line-height: 50px;
-	width: 552px;
-	height: 150px;
 }
 
 .hero__subtitle {
 	margin-bottom: 30px;
-	width: 418px;
-	height: 21px;
 	font-size: 18px;
 	line-height: 22px;
+}
+
+
+@media screen and (max-width: 1023px) {
+	.hero__content {
+		justify-content: center;
+	}
+
+	.hero__info {
+		margin-left: 300px;
+		width: auto;
+	}
+
+	.hero__title {
+		font-size: 35px;
+	}
 }

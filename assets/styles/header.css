@@ -1,12 +1,55 @@
 header {
+	height: 100px;
 	width: 100%;
 	display: flex;
 	justify-content: space-between;
+	align-items: center;
 }
 
 .header__location {
-	/*width: 50%;*/
+	display: flex;
+	justify-content: flex-start;
+	width: 40%;
 }
+
+.header__city {
+	display: none;
+	justify-content: flex-start;
+	width: 40%;
+}
+
+.arrow {
+	position: relative;
+	display: none;
+	width: 10px;
+	height: 2px;
+	background-color: var(--blue);
+}
+
+.arrow:before {
+	position: absolute;
+	display: block;
+	content: "";
+	width: 10px;
+	height: 2px;
+	background-color: var(--blue);
+	transform: rotate(135deg);
+	right: -2px;
+	bottom: -3px;
+}
+
+.arrow:after {
+	position: absolute;
+	display: block;
+	content: "";
+	width: 10px;
+	height: 2px;
+	background-color: var(--blue);
+	transform: rotate(45deg);
+	left: -2px;
+	bottom: -3px;
+}
+
 
 .header__link {
 	color: var(--white);
@@ -20,34 +63,30 @@ header {
 
 .header__link.-op:hover {
 	opacity: 1;
+	font-weight: bold;
 }
 
 .header__link:first-child {
-	width: 87px;
-	/* margin-right: 39px;*/
-	margin-right: 19.5px;
+	margin-right: 11px;
 
 }
 
 .header__link:nth-child(2) {
-	width: 57px;
-	/* margin-right: 42px;*/
-	margin-right: 21px;
+	margin-right: 13px;
 }
 
 .header__link:nth-child(3) {
-	width: 77px;
-	/* margin-right: 41px; */
-	margin-right: 20.5px;
+	margin-right: 12.5px;
 }
 
 .header__link:last-child {
 	margin-right: 0px;
-	width: 128px;
+	white-space: nowrap;
 }
 
 .header__link.-up {
 	text-transform: uppercase;
+	margin-right: 15px;
 }
 
 .header__link.-up.-blue {
@@ -59,13 +98,61 @@ header {
 }
 
 .header__right {
-	height: 17px;
-	/*width: 50%;*/
+	width: 60%;
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
 }
 
 .header__nav {
+	width: 50%;
 	display: flex;
+	justify-content: flex-end;
+}
+
+.burger {
+	display: none;
+}
+
+.burger__particle {
+	width: 30px;
+	height: 2px;
+	background-color: var(--white);
+	margin-bottom: 5px;
+	transition: .5s;
+}
+
+.burger__particle.-s {
+	width: 15px;
+}
+
+@media screen and (max-width: 1100px) {
+	.header__location {
+		display: none;
+	}
+
+	.header__city {
+		display: flex;
+	}
+	
+	.arrow {
+		display: block;
+	}
+}
+
+@media screen and (max-width: 1023px) {
+	.header__right {
+		justify-content: space-between;
+		width: 55%;
+		align-items: flex-start;
+	}
+
+	.burger {
+		display: flex;
+		flex-direction: column;
+	}
+
+	.header__nav {
+		display: none;
+	}
 }

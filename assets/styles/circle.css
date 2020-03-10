@@ -1,0 +1,48 @@
+.circle {
+	position: absolute;
+	display: flex;
+	background: radial-gradient(68.31% 68.31% at 50% 50%, #F9FBFF 0%, #CADEF9 100%), #FFFFFF;
+	height: 230px;
+	width: 230px;
+	border-radius: 50%;
+	color: var(--blue);
+	padding: 20px;
+}
+
+.circle.-hero {
+	position: fixed;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: center;
+	bottom: 10%;
+	left: 5%;
+}
+
+.circle__title {
+	font-size: 14px;
+	line-height: 21px;
+}
+
+.circle__mark {
+	font-size: 34px;
+	line-height: 52px;
+}
+
+.circle__name {
+	font-size: 14px;
+	line-height: 20px;
+}
+
+.circle__penname {
+	font-size: 25px;
+	line-height: 20px;
+	font-weight: bold;
+	margin-top: 5px;
+	margin-bottom: 20px;
+}
+
+.circle__link {
+	color: var(--blue);
+	font-size: 14px;
+	line-height: 20px;
+}

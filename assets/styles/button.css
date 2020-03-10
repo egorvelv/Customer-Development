@@ -24,6 +24,23 @@
 }
 
 .button.-header {
-	margin-left: 33px;
 	color: var(--blue);
+}
+
+button.-header.-e {
+	display: none;
+}
+
+@media screen and (max-width: 1023px) {
+	.button.-header {
+		display: none;
+	}
+
+	.button.-header.-e {
+		display: block;
+		padding: 0;
+		height: 0;
+		width: 100px;
+		color: var(--white);
+	}
 }
