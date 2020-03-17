@@ -9,47 +9,15 @@ header {
 .header__location {
 	display: flex;
 	justify-content: flex-start;
-	width: 40%;
+	align-items: center;
+	width: 50%;
 }
 
 .header__city {
 	display: none;
 	justify-content: flex-start;
-	width: 40%;
+	width: 50%;
 }
-
-.arrow {
-	position: relative;
-	display: none;
-	width: 10px;
-	height: 2px;
-	background-color: var(--blue);
-}
-
-.arrow:before {
-	position: absolute;
-	display: block;
-	content: "";
-	width: 10px;
-	height: 2px;
-	background-color: var(--blue);
-	transform: rotate(135deg);
-	right: -2px;
-	bottom: -3px;
-}
-
-.arrow:after {
-	position: absolute;
-	display: block;
-	content: "";
-	width: 10px;
-	height: 2px;
-	background-color: var(--blue);
-	transform: rotate(45deg);
-	left: -2px;
-	bottom: -3px;
-}
-
 
 .header__link {
 	color: var(--white);
@@ -89,7 +57,18 @@ header {
 	margin-right: 15px;
 }
 
+.header__link.-up.-blue:after {
+	display: none;
+	top: 5px;
+	right: -25px;
+	position: absolute;
+	content: "";
+	border: 5px solid transparent;
+	border-top: 5px solid var(--blue);
+}
+
 .header__link.-up.-blue {
+	position: relative;
 	color: var(--blue);
 }
 
@@ -98,7 +77,7 @@ header {
 }
 
 .header__right {
-	width: 60%;
+	width: 100%;
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
@@ -107,7 +86,7 @@ header {
 .header__nav {
 	width: 50%;
 	display: flex;
-	justify-content: flex-end;
+	justify-content: flex-start;
 }
 
 .burger {
@@ -132,11 +111,12 @@ header {
 	}
 
 	.header__city {
+		justify-content: flex-start;
 		display: flex;
 	}
-	
-	.arrow {
-		display: block;
+
+	.header__link.-up.-blue:after {
+		display: inline-block;
 	}
 }
 
@@ -147,6 +127,15 @@ header {
 		align-items: flex-start;
 	}
 
+	.header__city {
+		align-items: center;
+	}
+
+	.header__link.-up.-blue:after {
+		border: 5px solid transparent;
+		border-top: 5px solid var(--white);
+	}
+
 	.burger {
 		display: flex;
 		flex-direction: column;
@@ -154,5 +143,15 @@ header {
 
 	.header__nav {
 		display: none;
+	}
+}
+
+@media screen and (max-width: 767px) {
+	.header__city {
+		display: none;
+	}
+
+	.header__right {
+		width: 100%;
 	}
 }

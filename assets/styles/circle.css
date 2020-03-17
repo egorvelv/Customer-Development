@@ -7,14 +7,14 @@
 	border-radius: 50%;
 	color: var(--blue);
 	padding: 20px;
+	box-shadow: 0px 10px 50px rgba(119, 157, 255, 0.3);
 }
 
 .circle.-hero {
-	position: fixed;
 	flex-direction: column;
 	justify-content: flex-start;
 	align-items: center;
-	bottom: 10%;
+	bottom: -80%;
 	left: 5%;
 }
 
@@ -45,4 +45,24 @@
 	color: var(--blue);
 	font-size: 14px;
 	line-height: 20px;
+}
+
+@media screen and (max-width: 1100px) {
+	.circle.-hero {
+		bottom: -30%;
+	}
+}
+
+@media screen and (max-width: 1023px) {
+	.circle.-hero {
+		left: 5%;
+	}
+}
+
+@media screen and (max-width: 767px) {
+	.circle.-hero {
+		left: 50%;
+		transform: translateX(-50%);
+		bottom: -110%;
+	}
 }

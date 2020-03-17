@@ -1,5 +1,5 @@
 .container {
-	width: 1130px;
+	width: 1200px;
 	margin: 0 auto;
 }
 
@@ -11,11 +11,11 @@
 
 @media screen and (max-width: 1023px) {
 	.container {
-			width: 900px;
+			width: 950px;
 		}
 }
 
-@media screen and (max-width: 880px) {
+@media screen and (max-width: 950px) {
 	.container {
 		width: calc(100% - 40px);
 	}

@@ -1,0 +1,36 @@
+.section {
+	height: 50vh;
+	display: flex;
+	align-items: center;
+}
+
+.section__content {
+	display: flex;
+	justify-content: space-between;
+}
+
+.content {
+	display: flex;
+	height: 100%;
+	width: 50%;
+	flex-wrap: wrap;
+}
+
+.content.-left {
+	align-items: center;
+}
+
+.content.-right {
+	align-items: space-between;
+}
+
+.content__top {
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 20px;
+}
+
+.content__bottom {
+	display: flex;
+	justify-content: space-between;
+}

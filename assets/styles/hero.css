@@ -53,5 +53,47 @@
 
 	.hero__title {
 		font-size: 35px;
+		width: 400px;
+	}
+}
+
+@media screen and (max-width: 767px) {
+	.hero__content {
+		justify-content: center;
+		margin: 0px;
+	}
+
+	.hero__info {
+		margin-left: 0px;
+	}
+
+	.hero__date {
+	line-height: 18px;
+	}
+
+	.hero__title {
+		font-size: 24px;
+		line-height: 30px;
+	}
+
+	.hero__subtitle {
+	line-height: 17px;
+	}
+}
+
+@media screen and (max-width: 440px) {
+	.hero__content {
+		display: block;
+	}
+}
+
+
+@media screen and (max-width: 420px) {
+	.hero__content {
+		display: flex;
+	}
+
+	.hero__title {
+		width: auto;
 	}
 }

@@ -1,0 +1,18 @@
+.card {
+	padding: 15px 30px;
+	display: flex;
+	flex-direction: column;
+	width: calc(50% - 40px);
+	height: 200px;
+	box-shadow: 0px 30px 100px rgba(47, 55, 237, 0.1);
+	border-radius: 10px;
+}
+
+.card__title {
+	color: var(--blue);
+	margin-bottom: 15px;
+}
+
+.card__info {
+	color: var(--gray);
+}
