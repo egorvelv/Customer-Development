@@ -147,6 +147,10 @@ header {
 }
 
 @media screen and (max-width: 767px) {
+	header {
+		justify-content: space-between;
+	}
+	
 	.header__city {
 		display: none;
 	}
