@@ -1,11 +1,15 @@
 .card {
-	padding: 20px;
+	padding: 20px 10px 10px;
 	display: flex;
 	flex-direction: column;
-	width: calc(50% - 20px);
 	height: 200px;
 	box-shadow: 0px 30px 100px rgba(47, 55, 237, 0.1);
 	border-radius: 10px;
+}
+
+.card.-transparent {
+	background-color: transparent;
+	box-shadow: none;
 }
 
 .card__title {
@@ -19,4 +23,19 @@
 .card__info {
 	color: var(--gray);
 	font-size: 14px;
+}
+
+.card.-twoinrow {
+	width: calc(50% - 20px);
+}
+
+.card.-threeinrow {
+	width: calc(33% - 20px);
+}
+
+@media screen and (max-width: 767px) {
+	.card.-twoinrow {
+		width: calc(100% - 20px);
+		margin-bottom: 10px;
+	}
 }
