@@ -1,22 +1,57 @@
 .reason {
+	margin-bottom: 100px;
 	height: 50vh;
 	background-image: url(../img/reason-bg.png);
+	background-repeat: no-repeat;
+	background-position: 150px 0px;
+	overflow: hidden;
 }
 
 .reason__content {
+	position: relative;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
 	padding: 20px;
 }
 
-.content__cards {
+.reason__cards {
 	display: flex;
 	justify-content: space-between;
+	align-self: flex-end;
+}
+
+@media screen and (max-width: 1240px) {
+	.reason {
+			background-position: unset;
+		}
+}
+
+@media screen and (max-width: 1023px) {
+	.reason {
+			overflow: unset;
+		}
 }
 
 @media screen and (max-width: 767px) {
-	.content__cards {
+	.reason {
+		margin-bottom: 150px;
+	}
+
+	.reason__cards {
 		flex-direction: column;
+		align-items: center;
+	}
+}
+
+@media screen and (max-width: 550px) {
+	.reason {
+		margin-bottom: 300px;
+	}
+}
+
+@media screen and (max-width: 425px) {
+	.reason {
+		margin-bottom: 450px;
 	}
 }

@@ -30,13 +30,15 @@
 	justify-content: center;
 }
 
-.content__top {
+.section__top {
+	width: calc(100% - 40px);
 	display: flex;
 	justify-content: space-between;
 	margin-bottom: 20px;
 }
 
-.content__bottom {
+.section__bottom {
+	width: calc(100% - 40px);
 	display: flex;
 	justify-content: space-between;
 }
@@ -64,11 +66,18 @@
 		margin-bottom: 375px;
 	}
 
-	.content__top {
+	.section__top {
 		flex-direction: column;
+		margin-bottom: 0px;
 	}
 
-	.content__bottom {
+	.section__bottom {
 		flex-direction: column;
+	}
+}
+
+@media screen and (max-width: 400px) {
+	.section {
+		margin-bottom: 425px;
 	}
 }
