@@ -133,7 +133,7 @@ header {
 
 	.header__link.-up.-blue:after {
 		border: 5px solid transparent;
-		border-top: 5px solid var(--white);
+		border-top: 5px solid var(--blue);
 	}
 
 	.burger {

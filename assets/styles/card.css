@@ -46,9 +46,13 @@
 	transform: translateY(-50%);
 }
 
+.card__title.-up.-w {
+	width: 75%;
+}
+
 .card.-circle:after {
-	right: -70px;
-	top: -70px;
+	right: 0px;
+	top: 0px;
 	display: block;
 	content: "";
 	position: absolute;
