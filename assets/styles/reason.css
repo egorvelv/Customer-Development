@@ -4,7 +4,7 @@
 	background-image: url(../img/reason-bg.png);
 	background-repeat: no-repeat;
 	overflow-x: hidden;
-	overflow-y: visible;
+	background-position: 150px 0px;
 }
 
 .reason__content {

@@ -5,6 +5,7 @@
 	height: 200px;
 	box-shadow: 0px 30px 100px rgba(47, 55, 237, 0.1);
 	border-radius: 10px;
+	background-color: var(--white);
 }
 
 .card.-transparent {
@@ -35,6 +36,16 @@
 
 .card.-threeinrow {
 	width: calc(33% - 20px);
+}
+
+.card.-img {
+	justify-content: space-between;
+	flex-direction: row;
+}
+
+.card__text {
+	display: flex;
+	flex-direction: column;
 }
 
 .card.-circle {

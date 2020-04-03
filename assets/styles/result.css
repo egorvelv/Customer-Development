@@ -1,0 +1,22 @@
+.result {
+	height: 60vh;
+	background-image: url(../img/result-bg.png);
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position-y: 50px;
+}
+
+.result__content {
+	display: flex;
+	flex-direction: column;
+}
+
+.result__top {
+	display: flex;
+	justify-content: space-between;
+}
+
+.result__bottom {
+	display: flex;
+	justify-content: space-between;
+}
