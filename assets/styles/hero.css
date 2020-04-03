@@ -90,6 +90,12 @@
 	}
 }
 
+@media screen and (max-width: 500px) {
+	.hero {
+		margin-bottom: 450px;
+	}
+}
+
 @media screen and (max-width: 440px) {
 	.hero__content {
 		display: block;

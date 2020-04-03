@@ -45,14 +45,26 @@
 	}
 }
 
-@media screen and (max-width: 550px) {
+@media screen and (max-width: 585px) {
 	.reason {
-		margin-bottom: 300px;
+		margin-bottom: 225px;
 	}
 }
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 450px) {
 	.reason {
-		margin-bottom: 450px;
+		margin-bottom: 275px;
+	}
+}
+
+@media screen and (max-width: 380px) {
+	.reason {
+		margin-bottom: 350px;
+	}
+}
+
+@media screen and (max-width: 350px) {
+	.reason {
+		margin-bottom: 490px;
 	}
 }

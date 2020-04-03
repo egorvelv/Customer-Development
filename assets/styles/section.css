@@ -24,6 +24,7 @@
 
 .section__title {
 	width: calc(70% - 40px);
+	font-size: 25px;
 }
 
 .content.-right {
@@ -58,6 +59,12 @@
 
 	.content {
 		width: 100%;
+	}
+}
+
+@media screen and (max-width: 1023px) {
+	.section {
+		margin-bottom: 175px;
 	}
 }
 

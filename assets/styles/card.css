@@ -1,5 +1,5 @@
 .card {
-	padding: 20px 10px 10px;
+	padding: 25px;
 	display: flex;
 	flex-direction: column;
 	height: 200px;
@@ -70,6 +70,11 @@
 }
 
 @media screen and (max-width: 767px) {
+	.card__title.-up {
+		font-size: 14px;
+		line-height: 20px;
+	}
+
 	.card.-twoinrow {
 		width: calc(100% - 20px);
 		margin-bottom: 10px;
@@ -78,6 +83,10 @@
 	.card.-transparent.-threeinrow {
 		width: calc(100% - 40px);
 		height: calc(33% - 20px);
+	}
+
+	.card.-transparent.-twoinrow.-s {
+		height: auto;
 	}
 
 	.card.-circle {
