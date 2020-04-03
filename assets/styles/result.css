@@ -2,7 +2,7 @@
 	height: 60vh;
 	background-image: url(../img/result-bg.png);
 	background-repeat: no-repeat;
-	background-size: contain;
+	background-size: 100%;
 	background-position-y: 50px;
 }
 
@@ -11,12 +11,8 @@
 	flex-direction: column;
 }
 
-.result__top {
+.result__cards {
 	display: flex;
-	justify-content: space-between;
-}
-
-.result__bottom {
-	display: flex;
+	flex-wrap: wrap;
 	justify-content: space-between;
 }

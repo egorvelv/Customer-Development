@@ -6,6 +6,7 @@
 	box-shadow: 0px 30px 100px rgba(47, 55, 237, 0.1);
 	border-radius: 10px;
 	background-color: var(--white);
+	margin-bottom: 20px;
 }
 
 .card.-transparent {
@@ -39,13 +40,24 @@
 }
 
 .card.-img {
-	justify-content: space-between;
-	flex-direction: row;
+	padding-left: 100px;
+	background-repeat: no-repeat;
 }
 
-.card__text {
-	display: flex;
-	flex-direction: column;
+.card.-img:first-child {
+	background-image: url(../img/result_1.png);
+}
+
+.card.-img:nth-child(2) {
+	background-image: url(../img/result_2.png);
+}
+
+.card.-img:nth-child(3) {
+	background-image: url(../img/result_3.png);
+}
+
+.card.-img:last-child {
+	background-image: url(../img/result_4.png);
 }
 
 .card.-circle {

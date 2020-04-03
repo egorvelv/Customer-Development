@@ -29,20 +29,10 @@
 
 .content.-right {
 	justify-content: center;
-}
-
-.section__top {
-	width: calc(100% - 40px);
-	display: flex;
-	justify-content: space-between;
-	margin-bottom: 20px;
-}
-
-.section__bottom {
-	width: calc(100% - 40px);
-	display: flex;
+	flex-wrap: wrap;
 	justify-content: space-between;
 }
+
 
 @media screen and (max-width: 1023px) {
 	.section {
