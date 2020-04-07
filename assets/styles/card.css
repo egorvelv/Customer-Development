@@ -6,6 +6,7 @@
 	border-radius: 10px;
 	background-color: var(--white);
 	margin-bottom: 20px;
+	width: auto;
 }
 
 .card.-s {

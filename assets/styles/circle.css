@@ -8,6 +8,7 @@
 	color: var(--blue);
 	padding: 20px;
 	box-shadow: 0px 10px 50px rgba(119, 157, 255, 0.3);
+	z-index: 2;
 }
 
 .circle.-hero {

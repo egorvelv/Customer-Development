@@ -2,7 +2,7 @@
 	width: 100%;
 	display: flex;
 	align-items: center;
-	margin-bottom: 100px;
+	margin-bottom: 75px;
 }
 
 .section__content {
@@ -51,17 +51,7 @@
 	}
 }
 
-@media screen and (max-width: 1023px) {
-	.section {
-		margin-bottom: 175px;
-	}
-}
-
 @media screen and (max-width: 767px) {
-	.section {
-		margin-bottom: 375px;
-	}
-
 	.section__top {
 		flex-direction: column;
 		margin-bottom: 0px;
@@ -69,11 +59,5 @@
 
 	.section__bottom {
 		flex-direction: column;
-	}
-}
-
-@media screen and (max-width: 400px) {
-	.section {
-		margin-bottom: 425px;
 	}
 }

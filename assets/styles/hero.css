@@ -1,6 +1,6 @@
 .hero {
 	height: 100vh;
-	margin-bottom: 100px;
+	margin-bottom: 75px;
 }
 
 .hero__content {
@@ -43,10 +43,6 @@
 
 
 @media screen and (max-width: 1023px) {
-	.hero {
-		margin-bottom: 150px;
-	}
-
 	.hero__content {
 		justify-content: center;
 	}
@@ -63,10 +59,6 @@
 }
 
 @media screen and (max-width: 767px) {
-	.hero {
-		margin-bottom: 400px;
-	}
-
 	.hero__content {
 		justify-content: center;
 		margin: 0px;
@@ -90,12 +82,6 @@
 	}
 }
 
-@media screen and (max-width: 500px) {
-	.hero {
-		margin-bottom: 450px;
-	}
-}
-
 @media screen and (max-width: 440px) {
 	.hero__content {
 		display: block;
@@ -110,11 +96,5 @@
 
 	.hero__title {
 		width: auto;
-	}
-}
-
-@media screen and (max-width: 380px) {
-	.hero {
-		margin-bottom: 500px;
 	}
 }
