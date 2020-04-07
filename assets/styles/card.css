@@ -1,12 +1,15 @@
 .card {
-	padding: 25px;
+	padding: 30px;
 	display: flex;
 	flex-direction: column;
-	height: 200px;
 	box-shadow: 0px 30px 100px rgba(47, 55, 237, 0.1);
 	border-radius: 10px;
 	background-color: var(--white);
 	margin-bottom: 20px;
+}
+
+.card.-s {
+	padding-left: 0px;
 }
 
 .card.-transparent {
@@ -16,6 +19,13 @@
 
 .card__title {
 	color: var(--blue);
+	margin-bottom: 15px;
+	font-size: 16px;
+	font-weight: bold;
+	line-height: 20px;
+}
+
+.card__title.-l {
 	margin-bottom: 15px;
 	font-size: 24px;
 	font-weight: bold;
@@ -42,6 +52,7 @@
 .card.-img {
 	padding-left: 100px;
 	background-repeat: no-repeat;
+	background-position: 20px 50px;
 }
 
 .card.-img:first-child {
@@ -89,6 +100,10 @@
 @media screen and (max-width: 1023px) {
 	.card.-circle {
 		position: static;
+	}
+
+	.card.-img {
+		width: calc(100% - 40px);
 	}
 }
 

@@ -1,14 +1,20 @@
 .result {
-	height: 60vh;
 	background-image: url(../img/result-bg.png);
+	/*background: radial-gradient(blue, blue, white);*/
+	background-size: cover;
 	background-repeat: no-repeat;
-	background-size: 100%;
-	background-position-y: 50px;
 }
 
 .result__content {
 	display: flex;
 	flex-direction: column;
+}
+
+.result__title {
+	font-weight: bold;
+	font-size: 35px;
+	line-height: 44px;
+	margin-bottom: 55px;
 }
 
 .result__cards {
