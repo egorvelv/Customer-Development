@@ -1,0 +1,11 @@
+.video {
+	
+}
+
+.video__control {
+	opacity: .5;
+	width: 70px;
+	height: 70px;
+	border-radius: 50%;
+	background-color: var(--blue);
+}

@@ -1,3 +1,14 @@
 .explanation {
 	margin-bottom: 75px;
 }
+
+.person {
+	display: flex;
+	justify-content: space-between;
+}
+
+.explanation__cards {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
