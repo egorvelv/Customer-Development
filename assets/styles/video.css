@@ -1,11 +1,28 @@
 .video {
-	
+	position: relative;
 }
 
 .video__control {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	z-index: 2;
 	opacity: .5;
 	width: 70px;
 	height: 70px;
 	border-radius: 50%;
 	background-color: var(--blue);
+}
+
+.triangle {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	width: 0;
+	height: 0;
+	border-style: solid;
+	border-width: 17.5px 0 17.5px 30px;
+	border-color: transparent transparent transparent #ffffff;
 }

@@ -2,9 +2,17 @@
 	margin-bottom: 75px;
 }
 
+.explanation__title {
+	font-weight: bold;
+	font-size: 30px;
+	line-height: 37px;
+	margin-bottom: 20px;
+}
+
 .person {
 	display: flex;
 	justify-content: space-between;
+	align-items: center;
 }
 
 .explanation__cards {

@@ -8,6 +8,10 @@
 	margin-bottom: 20px;
 }
 
+.card.-l {
+	width: 25%;
+}
+
 .card.-s {
 	padding-left: 0px;
 }
@@ -102,6 +106,10 @@
 }
 
 @media screen and (max-width: 1023px) {
+	.card.-fourinrow {
+		width: calc(50% - 20px);
+	}
+
 	.card.-circle {
 		position: static;
 	}
@@ -109,12 +117,20 @@
 	.card.-img {
 		width: calc(100% - 40px);
 	}
+
+	.card.-l {
+		display: none;
+	}
 }
 
 @media screen and (max-width: 767px) {
 	.card__title.-up {
 		font-size: 14px;
 		line-height: 20px;
+	}
+
+	.card.-fourinrow {
+		width: calc(100% - 20px);
 	}
 
 	.card.-twoinrow {
