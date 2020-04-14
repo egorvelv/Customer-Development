@@ -133,6 +133,9 @@
 
 	.card.-transparent.-twoinrow.-s {
 		height: auto;
+		display: flex;
+		align-items: center;
+		flex-direction: column;
 	}
 
 	.card.-circle {

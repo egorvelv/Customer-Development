@@ -4,6 +4,7 @@ header {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
+	padding: 0px 30px;
 }
 
 .header__location {
@@ -58,7 +59,7 @@ header {
 }
 
 .header__link.-up.-blue:after {
-	display: none;
+	display: inline-block;
 	top: 5px;
 	right: -25px;
 	position: absolute;
@@ -113,10 +114,6 @@ header {
 	.header__city {
 		justify-content: flex-start;
 		display: flex;
-	}
-
-	.header__link.-up.-blue:after {
-		display: inline-block;
 	}
 }
 
