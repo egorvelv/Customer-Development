@@ -3,6 +3,7 @@
 	background-image: url(../img/reason-bg.png);
 	background-repeat: no-repeat;
 	background-size: cover;
+	padding: 40px 40px;
 }
 
 .reason__content {

@@ -90,22 +90,6 @@ header {
 	justify-content: flex-start;
 }
 
-.burger {
-	display: none;
-}
-
-.burger__particle {
-	width: 30px;
-	height: 2px;
-	background-color: var(--white);
-	margin-bottom: 5px;
-	transition: .5s;
-}
-
-.burger__particle.-s {
-	width: 15px;
-}
-
 @media screen and (max-width: 1100px) {
 	.header__location {
 		display: none;
