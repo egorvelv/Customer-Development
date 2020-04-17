@@ -1,0 +1,25 @@
+.feedback {
+	margin-bottom: 45px;
+	background-image: url(../img/feedback-bg.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.feedback__content {
+	position: relative;
+	width: 100%;
+}
+
+.feedback__title {
+	font-size: 35px;
+	line-height: 53px;
+	margin-bottom: 45px;
+}
+
+@media screen and (max-width: 1023px) {
+	.feedback__container {
+		display: flex;
+		align-items: center;
+		flex-direction: column;
+	}
+}
