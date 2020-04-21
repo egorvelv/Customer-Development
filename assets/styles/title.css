@@ -1,0 +1,17 @@
+.title {
+	margin-bottom: 40px;
+	color: var(--black);
+}
+
+.title.-w {
+	color: var(--white);
+}
+
+.title.-m {
+	font-size: 25px;
+}
+
+.title.-l {
+	font-size: 30px;
+	font-weight: bold;
+}

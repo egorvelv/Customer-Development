@@ -3,7 +3,7 @@
 	/*background: radial-gradient(blue, blue, white);*/
 	background-size: 1200px;
 	background-repeat: no-repeat;
-	padding: 60px 0px 130px;
+	padding: 130px 0px 50px;
 	margin-bottom: 45px;
 }
 
@@ -34,7 +34,7 @@
 @media screen and (max-width: 1023px) {
 	.result {
 		background-size: calc(100% + 170px);
-		padding: 0px;
+		padding-top: 100px;
 	}
 }
 
