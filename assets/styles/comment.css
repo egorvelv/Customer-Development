@@ -1,7 +1,7 @@
 .comment {
 	position: relative;
 	width: calc(50% - 40px);
-	margin-bottom: 150px;
+	margin-bottom: 20px;
 }
 
 .comment:nth-child(2) {
@@ -11,9 +11,7 @@
 }
 
 .comment__img {
-	position: absolute;
-	bottom: -115px;
-	left: -20px;
+	transform: translateX(-25px);
 	width: 70px;
 	height: 70px;
 	background-size: cover;
@@ -34,7 +32,6 @@
 
 @media screen and (max-width: 1023px) {
 	.comment {
-		margin-bottom: 150px;
 		width: calc(75% - 40px);
 	}
 
