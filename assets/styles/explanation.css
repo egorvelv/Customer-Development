@@ -2,13 +2,6 @@
 	margin-bottom: 45px;
 }
 
-.explanation__title {
-	font-weight: bold;
-	font-size: 30px;
-	line-height: 37px;
-	margin-bottom: 20px;
-}
-
 .person {
 	display: flex;
 	justify-content: space-between;

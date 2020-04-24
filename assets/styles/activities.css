@@ -9,13 +9,6 @@
 	align-items: flex-start;
 }
 
-.activities__title {
-	margin-bottom: 45px;
-	font-size: 30px;
-	line-height: 40px;
-	color: var(--black);
-}
-
 .activities__cards {
 	width: 50%;
 	display: flex;

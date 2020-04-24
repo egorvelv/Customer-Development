@@ -12,13 +12,6 @@
 	flex-direction: column;
 }
 
-.result__title {
-	font-weight: bold;
-	font-size: 35px;
-	line-height: 44px;
-	margin-bottom: 55px;
-}
-
 .result__cards {
 	display: flex;
 	flex-wrap: wrap;
