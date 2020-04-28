@@ -21,6 +21,7 @@
 
 .card__img {
 	margin-right: 20px;
+	margin-bottom: 20px;
 }
 
 .card__title {
@@ -70,10 +71,17 @@
 	align-items: center;
 }
 
+.card.-block {
+	display: block;
+}
+
 .card.-f {
 	display: flex;
 	justify-content: space-around;
 	align-items: center;
+}
+
+.card.-f.-l {
 	width: 45%;
 }
 

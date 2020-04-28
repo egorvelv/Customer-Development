@@ -12,7 +12,7 @@
 }
 
 .circle.-darkblue {
-	background-color: var(--darkblue);
+	background: var(--darkblue);
 }
 
 .circle.-hero {
@@ -77,7 +77,7 @@
 }
 
 .circle.-bottom {
-	bottom: 20px;
+	bottom: 0px;
 }
 
 .circle.-right {
