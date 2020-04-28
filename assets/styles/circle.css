@@ -11,6 +11,10 @@
 	z-index: 2;
 }
 
+.circle.-darkblue {
+	background-color: var(--blue);
+}
+
 .circle.-hero {
 	flex-direction: column;
 	justify-content: flex-start;
@@ -63,9 +67,25 @@
 	width: 180px;
 }
 
-.circle.-s.-right {
-	top: -20px;
+.circle.-xs {
+	height: 100px;
+	width: 100px;
+}
+
+.circle.-top {
+	top: 20px;
+}
+
+.circle.-bottom {
+	bottom: 20px;
+}
+
+.circle.-right {
 	right: -100px;
+}
+
+.circle.-left {
+	left: -50px;
 }
 
 .circle.-img {
@@ -75,10 +95,6 @@
 	height: 150px;
 	right: 40px;
 	bottom: -0px;
-}
-
-.circle__img {
-	
 }
 
 @media screen and (max-width: 1240px) {

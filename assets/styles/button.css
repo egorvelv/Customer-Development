@@ -18,6 +18,14 @@
 	color: var(--white);
 }
 
+.button.-s {
+	width: 175px;
+}
+
+.button.-up {
+	text-transform: uppercase;
+}
+
 .button.-success.-shadow {
 	box-shadow: 0px 0px 0 15px var(--lightgreen);
 	margin-left: 15px;

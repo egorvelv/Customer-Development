@@ -55,4 +55,8 @@
 	.section__bottom {
 		flex-direction: column;
 	}
+
+	.content.-right {
+		justify-content: center;
+	}
 }
