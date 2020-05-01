@@ -147,8 +147,14 @@
 	box-shadow: 0px 10px 50px rgba(119, 157, 255, 0.3);
 }
 
+.card.-end {
+	display: flex;
+	justify-content: flex-end;
+}
+
 .card__info.-end {
 	text-align: right;
+	width: 50%;
 }
 
 

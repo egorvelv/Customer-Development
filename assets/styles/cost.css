@@ -1,12 +1,14 @@
 .cost {
 	margin-bottom: 75px;
 	background-image: url(../img/cost-bg.png);
+	background-repeat: no-repeat;
 	padding: 100px 0px 0px;
 }
 
 .cost__content {
 	display: flex;
 	flex-direction: column;
+	width: 75%;
 }
 
 .cost__cards {

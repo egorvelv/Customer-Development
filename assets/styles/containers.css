@@ -3,6 +3,11 @@
 	margin: 0 auto;
 }
 
+.container.-cost {
+	display: flex;
+	justify-content: center;
+}
+
 @media screen and (max-width: 1240px) {
 	.container {
 			width: 1000px;
