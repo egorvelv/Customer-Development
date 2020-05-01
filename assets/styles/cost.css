@@ -1,8 +1,10 @@
 .cost {
 	margin-bottom: 75px;
 	background-image: url(../img/cost-bg.png);
+	background-size: cover;
 	background-repeat: no-repeat;
-	padding: 100px 0px 0px;
+	padding: 150px 0px 0px;
+	position: relative;
 }
 
 .cost__content {
@@ -15,4 +17,10 @@
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-between;
+}
+
+@media screen and (max-width: 767px) {
+	.cost {
+		padding-bottom: 120px;
+	}
 }
