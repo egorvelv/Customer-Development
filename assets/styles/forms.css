@@ -1,5 +1,6 @@
 .forms {
 	background-color: var(--lightgray);
+	margin-bottom: 45px;
 }
 
 .forms__content {
@@ -16,7 +17,7 @@
 	flex-wrap: wrap;
 }
 
-.form__particle {
+.input {
 	border: 1px solid rgba(47, 128, 237, 0.3);
 	background-color: var(--white);
 	padding: 15px 10px;
@@ -24,7 +25,7 @@
 	height: 50%;
 }
 
-.form__particle:last-child {
+.input[type='email'] {
 	margin-right: 0px;
 }
 
@@ -34,18 +35,37 @@
 	}
 
 	.form {
-		width: 50%;
 		align-items: center;
 	}
 
-	.form__particle {
+	.input {
 		width: calc(50% - 20px);
-		height: calc(50% - 20px);
+		height: calc(40% - 20px);
 		margin-right: 20px;
 		margin-bottom: 20px;
 	}
 
-	.form__particle:last-child {
+	.input[type='email'] {
 		margin-bottom: 0px;
+	}
+}
+
+@media screen and (max-width: 767px) {
+	.forms {
+		padding-bottom: 40px;
+	}
+
+	.form {
+		width: 100%;
+		justify-content: center;
+	}
+
+	.input {
+		margin-right: 0px;
+		width: calc(100% - 20px);
+	}
+
+	.input[type='email'] {
+		margin-bottom: 20px;
 	}
 }

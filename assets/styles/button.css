@@ -9,6 +9,11 @@
 	height: 42px;
 	border-radius: 50px;
 	border: 0px solid var(--white); 
+	background-color: var(--white);
+}
+
+.button.-blue {
+	color: var(--blue);
 }
 
 .button.-success {
@@ -58,5 +63,11 @@
 
 	.button.-in {
 		width: 50%;
+	}
+}
+
+@media screen and (max-width: 767px) {
+	.button.-in {
+		width: 100%;
 	}
 }
