@@ -35,8 +35,12 @@
 	color: var(--blue);
 }
 
-button.-header.-e {
+.button.-header.-e {
 	display: none;
+}
+
+.button.-in {
+	width: 25%;
 }
 
 @media screen and (max-width: 1023px) {
@@ -50,5 +54,9 @@ button.-header.-e {
 		height: 0;
 		width: 100px;
 		color: var(--white);
+	}
+
+	.button.-in {
+		width: 50%;
 	}
 }
