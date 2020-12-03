@@ -1,4 +1,4 @@
-# [Customer Development](https://fraula.github.io/Customer-Development/)
+# [Customer Development](https://egorvelv.github.io/Customer-Development/)
 
 A very big project with many new features. Enjoy your visit on this page
 
